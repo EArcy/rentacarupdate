@@ -9,3 +9,5 @@ catch (PDOException $e){
 
     print $e->getMessage();
 }
+
+return $conn;
